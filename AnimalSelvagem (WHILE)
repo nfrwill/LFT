@@ -1,0 +1,25 @@
+! / bin / bash
+#Helpdesk - Animal Selvagem
+echo "Digite" s "para abrir o programa e" n "para fechar:"
+ler resposta
+enquanto ["$ resposta" = "s"]
+do
+echo "(Digite 'n' a qualquer momento para sair) "
+echo" Qual animal você vê? "
+ler
+caso de animal $ animal em
+" leao "| "tigre")
+echo "É melhor correr"
+;;
+"gato")
+echo "pode ​​ser útil para pegar ratos"
+;;
+"cachorro")
+echo "Não se preocupa"
+;;
+"n")
+sair
+;;
+*)
+echo "
+
